@@ -127,6 +127,11 @@ class RegisterGuestController extends Controller
         //     $room->save();
         // }
 
+        /**
+         * Gimana caranya ketika pindah kamar, status kamar dapat berubah misal dari occupied ke vacance?
+         *
+         */
+
         return redirect('/dashboard/register')->with('success', 'Data register telah diubah.');
 
 
